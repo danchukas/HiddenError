@@ -1,0 +1,25 @@
+{
+  "name": "danchukas/HiddenError",
+  "description": "catch and manage hidden errors",
+  "keywords": [
+    "hidden",
+    "errors"
+  ],
+  "homepage": "https://github.com/danchukas/HiddenError",
+  "autoload": {
+    "psr-4": {
+      "DanchukAS\\HiddenError\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DanchukAS\\HiddenErrorTest\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/PHPUnit": "~6.2@stable"
+  }
+}
